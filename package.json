@@ -1,0 +1,35 @@
+{
+  "name": "onwave-api",
+  "version": "0.0.1",
+  "description": "OnWave API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
+  },
+  "keywords": [
+    "REST",
+    "OnWaveSolutions",
+    "NodeJS",
+    "MongoDB",
+    "CRUD"
+  ],
+  "author": "alexander9306@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "fastify": "^2.2.0",
+    "fastify-formbody": "^3.1.0",
+    "fastify-swagger": "^2.3.2",
+    "mongoose": "^5.5.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "onwave-tools": "0.0.3",
+    "passport": "^0.4.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
